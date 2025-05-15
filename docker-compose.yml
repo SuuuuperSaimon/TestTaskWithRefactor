@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    volumes:
+      - ./:/app
+    command: php bin/console.php input.txt
